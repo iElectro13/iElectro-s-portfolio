@@ -4,7 +4,7 @@ import Landing from "./components/pages/Landing";
 
 function App() {
     return (
-        <div className="">
+        <div className="font-raleway">
             <Routes>
                 <Route path="/" element={<Landing />} />
             </Routes>
