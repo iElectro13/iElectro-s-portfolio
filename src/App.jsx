@@ -1,13 +1,15 @@
-import { useState } from 'react'
+import { useState } from "react";
+import { Routes, Route } from "react-router-dom";
+import Landing from "./components/pages/Landing";
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <div className="App">
-      
-    </div>
-  )
+    return (
+        <div className="">
+            <Routes>
+                <Route path="/" element={<Landing />} />
+            </Routes>
+        </div>
+    );
 }
 
-export default App
+export default App;
