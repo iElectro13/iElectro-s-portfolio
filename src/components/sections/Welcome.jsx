@@ -2,6 +2,7 @@ import React from "react";
 import MainLayout from "../../layouts/MainLayout";
 import { FaArrowRight } from "react-icons/fa";
 
+
 const Welcome = () => {
     return (
         <div
