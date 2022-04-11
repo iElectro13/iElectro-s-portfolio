@@ -4,6 +4,7 @@ import Welcome from "../sections/Welcome";
 import About from "../sections/About";
 import Projects from "../sections/Projects";
 import Contact from "../sections/Contact";
+import Footer from "../sections/Footer";
 
 const Landing = () => {
     return (
@@ -13,6 +14,7 @@ const Landing = () => {
             <About />
             <Projects />
             <Contact />
+            <Footer />
         </div>
     );
 };
