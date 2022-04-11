@@ -32,11 +32,7 @@ const Projects = () => {
             category: "fullstack react express",
         },
     ];
-    useEffect(() => {
-        if (filter === "all") {
-            allRef.current.focus();
-        }
-    }, [filter]);
+
     return (
         <div
             id="projects"
