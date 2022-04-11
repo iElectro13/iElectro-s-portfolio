@@ -18,34 +18,34 @@ const Navbar = () => {
                     }
                 />
                 <div className="bg-neutral-900 text-neutral-100 flex-row justify-center items-center p-2 hidden gap-10 lg:flex">
-                    <span className="font-bold hover:text-sky-500 cursor-pointer">
-                        Home
-                    </span>
-                    <span className="font-bold hover:text-sky-500 cursor-pointer">
+                    <a onClick={()=> setIsOpen(false)} href="#welcome" className="font-bold hover:text-sky-500 cursor-pointer">
+                        Welcome
+                    </a>
+                    <a onClick={()=> setIsOpen(false)} href="#about" className="font-bold hover:text-sky-500 cursor-pointer">
                         About
-                    </span>
-                    <span className="font-bold hover:text-sky-500 cursor-pointer">
-                        Portfolio
-                    </span>
-                    <span className="font-bold hover:text-sky-500 cursor-pointer">
+                    </a>
+                    <a onClick={()=> setIsOpen(false)} href="#projects" className="font-bold hover:text-sky-500 cursor-pointer">
+                        Projects
+                    </a>
+                    <a onClick={()=> setIsOpen(false)} href="#contact" className="font-bold hover:text-sky-500 cursor-pointer">
                         Contact
-                    </span>
+                    </a>
                 </div>
             </nav>
             {isOpen && (
                 <div className="bg-neutral-900 text-neutral-100 flex flex-col justify-center items-center p-2 absolute top-full w-full lg:hidden">
-                    <span className="font-bold hover:text-sky-500 cursor-pointer">
-                        Home
-                    </span>
-                    <span className="font-bold hover:text-sky-500 cursor-pointer">
+                    <a onClick={()=> setIsOpen(false)} href="#welcome" className="font-bold hover:text-sky-500 cursor-pointer">
+                        Welcome
+                    </a>
+                    <a onClick={()=> setIsOpen(false)} href="#about" className="font-bold hover:text-sky-500 cursor-pointer">
                         About
-                    </span>
-                    <span className="font-bold hover:text-sky-500 cursor-pointer">
-                        Portfolio
-                    </span>
-                    <span className="font-bold hover:text-sky-500 cursor-pointer">
+                    </a>
+                    <a onClick={()=> setIsOpen(false)} href="#projects" className="font-bold hover:text-sky-500 cursor-pointer">
+                        Projects
+                    </a>
+                    <a onClick={()=> setIsOpen(false)} href="#contact" className="font-bold hover:text-sky-500 cursor-pointer">
                         Contact
-                    </span>
+                    </a>
                 </div>
             )}
         </header>
