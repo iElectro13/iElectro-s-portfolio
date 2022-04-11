@@ -8,7 +8,7 @@ const About = () => {
     return (
         <div id="about" className="flex flex-col justify-center items-center">
             <MainLayout>
-                <div className="flex flex-col justify-center items-center xl:flex-row gap-4">
+                <div className="flex flex-col justify-center items-center xl:flex-row gap-8">
                     <div className="flex flex-col justify-center items-center gap-2">
                         <Title title={"ABOUT"} />
                         <div className="grid grid-cols-2 gap-4 place-items-start">
