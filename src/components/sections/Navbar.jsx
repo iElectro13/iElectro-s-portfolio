@@ -4,7 +4,7 @@ import { IoGridSharp } from "react-icons/io5";
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     return (
-        <header className="flex justify-center items-center bg-neutral-900 relative">
+        <header className="flex justify-center items-center bg-neutral-900 fixed top-0 w-full">
             <nav className="responsive-container text-neutral-100 flex justify-between items-center">
                 <h1 className="font-bold text-4xl">
                     i<span className="text-pink-700">Electro</span>
