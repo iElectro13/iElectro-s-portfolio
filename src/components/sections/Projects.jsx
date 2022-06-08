@@ -8,6 +8,12 @@ const Projects = () => {
     const [filter, setFilter] = useState("all");
     const projects = [
         {
+            url: "https://vased-web.vercel.app/",
+            img: "/assets/images/vased-project.png",
+            title: "Fullstack LMS with Express and React",
+            category: "fullstack react express",
+        },
+        {
             url: "https://em-hechoamano.vercel.app/",
             img: "/assets/images/em-project.png",
             title: "Em-HechoAmano: e-commerce",
