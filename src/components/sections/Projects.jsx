@@ -36,7 +36,6 @@ const Projects = () => {
         <div
             id="projects"
             className="w-full flex flex-col justify-center items-center"
-            onClick={(e) => e.target.id === "projects" && setFilter("all")}
         >
             <MainLayout>
                 <Title title="PROJECTS" />
