@@ -30,12 +30,6 @@ const Projects = () => {
             title: "Fullstack todo with Express and React",
             category: "fullstack react express",
         },
-        {
-            url: "https://ielectro13.github.io/impacto-covid/",
-            img: "/assets/images/covid-project.png",
-            title: "Covid-19 tracker",
-            category: "javascript",
-        },
     ];
 
     return (
@@ -82,12 +76,6 @@ const Projects = () => {
                         className={`py-1 px-3 bg-neutral-200 hover:bg-pink-700 hover:text-neutral-100 text-center transition-colors ${filter === "express" ? "bg-pink-700 text-neutral-100" : "text-neutral-600"}`}
                     >
                         EXPRESS
-                    </button>
-                    <button
-                        onClick={() => setFilter("javascript")}
-                        className={`py-1 px-3 bg-neutral-200 hover:bg-pink-700 hover:text-neutral-100 text-center transition-colors ${filter === "javascript" ? "bg-pink-700 text-neutral-100" : "text-neutral-600"}`}
-                    >
-                        JAVASCRIPT
                     </button>
                 </div>
 
