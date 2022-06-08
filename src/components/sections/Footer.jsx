@@ -13,11 +13,10 @@ const Footer = () => {
                     <a target="_blank" href="https://www.linkedin.com/in/ielectro/">
                         <FaLinkedin className="text-neutral-100 text-4xl cursor-pointer" />
                     </a>
-                    <MdOutlinePictureAsPdf className="text-neutral-100 text-4xl cursor-pointer" />
                 </div>
                 <span className="text-neutral-100">
                     Enmanuel Pereira (iElectro){" "}
-                    <span className="text-pink-700">&copy; 2022</span>
+                    <span className="text-pink-700 font-bold">&copy; 2022</span>
                 </span>
             </div>
         </footer>
